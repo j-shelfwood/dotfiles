@@ -1,0 +1,13 @@
+{
+    "editor.fontFamily": "FiraCode",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 30,
+    "workbench.colorTheme": "Laravel Contrast (rainglow)",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "seti",
+    "explorer.confirmDelete": false
+}
