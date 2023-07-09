@@ -18,15 +18,8 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   ln -sf $DOTFILES_DIR/.gitconfig ~/.gitconfig
   ln -sf $DOTFILES_DIR/.gitignore_global ~/.gitignore_global
 
-  # PHP and Composer global configuration
-  ln -sf $DOTFILES_DIR/php.ini /usr/local/etc/php/7.4/php.ini  # replace with your php.ini path
-  ln -sf $DOTFILES_DIR/composer.json ~/.composer/composer.json
-
   # Laravel Valet configuration
   # Add lines here for any specific Valet configuration files you want to include
-
-  # Environment variables
-  ln -sf $DOTFILES_DIR/.env ~/.env
 
   # Raycast configuration
   ln -sf $DOTFILES_DIR/config.json ~/.config/raycast/config.json

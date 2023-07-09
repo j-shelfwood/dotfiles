@@ -5,6 +5,7 @@ DOTFILES_DIR=~/projects/dotfiles
 
 # Shell configuration files
 cp ~/.zshrc $DOTFILES_DIR
+mv $DOTFILES_DIR/.zshrc $DOTFILES_DIR/zshrc
 
 # VSCode configuration
 cp ~/Library/Application\ Support/Code/User/settings.json $DOTFILES_DIR/vscode-settings.json
