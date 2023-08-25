@@ -16,25 +16,3 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Oh My Zsh
 echo "Installing Oh My Zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Create folders
-echo "Creating ~/Projects and ~/Code-Reviews..."
-mkdir -p ~/Projects ~/Code-Reviews
-
-# Install cask applications
-echo "Installing applications..."
-brew install --cask warp
-brew install --cask slack
-brew install --cask visual-studio-code
-brew install --cask setapp
-brew install --cask mattermost
-brew install --cask notion
-brew install --cask 1password
-brew install --cask raycast
-brew install --cask google-chrome
-brew install --cask discord
-brew install --cask zoom
-brew install --cask obsidian
-brew install --cask spotify
-
-echo "All done!"
