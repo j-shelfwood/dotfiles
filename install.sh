@@ -8,15 +8,7 @@ echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 
   # Shell configuration files
-  ln -sf $DOTFILES_DIR/.zshrc ~/.zshrc
-
-  # VSCode configuration
-  ln -sf $DOTFILES_DIR/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
-  ln -sf $DOTFILES_DIR/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-
-  # Git configuration
-  ln -sf $DOTFILES_DIR/.gitconfig ~/.gitconfig
-  ln -sf $DOTFILES_DIR/.gitignore_global ~/.gitignore_global
+  ln -sf $DOTFILES_DIR/zshrc ~/.zshrc
 
   # Laravel Valet configuration
   # Add lines here for any specific Valet configuration files you want to include
