@@ -7,10 +7,6 @@ DOTFILES_DIR=~/projects/dotfiles
 cp ~/.zshrc $DOTFILES_DIR
 mv $DOTFILES_DIR/.zshrc $DOTFILES_DIR/zshrc
 
-# VSCode configuration
-cp ~/Library/Application\ Support/Code/User/settings.json $DOTFILES_DIR/vscode-settings.json
-cp ~/Library/Application\ Support/Code/User/keybindings.json $DOTFILES_DIR/keybindings.json
-
 # Git configuration
 cp ~/.gitconfig $DOTFILES_DIR
 cp ~/.gitignore_global $DOTFILES_DIR
